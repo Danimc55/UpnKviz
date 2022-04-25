@@ -29,7 +29,12 @@ https://user-images.githubusercontent.com/29386047/164197462-67516048-ddc1-4c33-
 | TRIMER          |                 |                 | Nastavljanje kontrasta za LCD. |
 
 ### Izhodi
-
+| **Oznaka v načrtu** | **Naslov operanda** | **Aktiven pri** | **Pomen**                                                        |
+|---------------------|---------------------|-----------------|------------------------------------------------------------------|
+| LED1                | Y0                  | 1               | Prižgana zelena led dioda, če noben gumb ni bil pritisjen.       |
+| LED2                | Y1                  | 1               | Prižgana rumena led dioda, če sta pritisnjena ena ali dva gumba. |
+| LED3                | Y2                  | 1               | Utripa rdeča led dioda, če so vsi gumbi bili pritisjeni          |
+| LCD                 |                     |                 | Prikaz vrstnega reda igralcev, ter zmagovalca.                   |
 
 
 ## Breadboard vezava
