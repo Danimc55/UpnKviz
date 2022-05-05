@@ -1,6 +1,7 @@
 # UPN Kviz
 Kviz: Imamo 3 tipke A, B in C. Krmiljenje naj ugotavlja, katera tipka je bila pritisnjena prva, katera druga in katera tretja. Zelena LED pomeni, da ni nihče še pritisnil na tipko (začetek kviza), rumena LED pomeni, da je vsaj en igralec pritisnil na tipko. Ko so vsi trije igralci pritisnili svoje tipke, utripa rdeča LED. S tipko za reset R ugasnemo rdečo LED diodo in resetiramo kviz. Za prikaz vrstnega reda uporabite LCD zaslon.
 
+## Kazalo
 - [UPN Kviz](#upn-kviz)
   * [Demonstracija](#demonstracija)
   * [Avtorji](#avtorji)
@@ -10,6 +11,7 @@ Kviz: Imamo 3 tipke A, B in C. Krmiljenje naj ugotavlja, katera tipka je bila pr
     + [Izhodi](#izhodi)
   * [Breadboard vezava](#breadboard-vezava)
   * [Shema](#shema)
+  * [Komentarji](#komentarji)
 
 ## Demonstracija
 https://user-images.githubusercontent.com/29386047/164197462-67516048-ddc1-4c33-a572-b0aaeed73b1d.mp4
@@ -53,5 +55,5 @@ https://user-images.githubusercontent.com/29386047/164197462-67516048-ddc1-4c33-
 ## Shema
 ![Shema vezave za upn kviz](/img/schema.png "Shema")
 
-
-
+## Komentarji
+Naloga ni bila preveč zahtevna. Za izboljšavo bi lahko mogoče dodali boljši zaslon ter naredili kviz na način, kjer bi se prikazalo na zaslonu neko vprašanje na katero bi imel tri odgovore A,B in C. 
